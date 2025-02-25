@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommended Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <h1>Media Showcase (•‿‿•)</h1>
+        <ul>
+            <a href="#video">Video</a>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <h1>Aya's Game Recommendations</h1>
+        <p> ~ Some of my games that I swear by! ~</p>
+        <label for="game-filter"> Filter By:</label>
+        <select id="game-filter">
+            <option value="all"> - - choose one - - </option>
+            <option value="action">Action</option>
+            <option value="multi">Open-World Multiplayer</option>
+            <option value="shooter">First-Person Shooter</option>
+            <option value="price"> Price </option>
+            <option value="rating"> User Rating </option>
+        </select>
+    </div>
+
+    <main id="games">
+       <figure data-price="39.99" data-genre="action" data-rating="rating">
+            <img src="images/darksouls.jpg" alt="A knight from Dark Souls II game">
+            <figcaption>Dark Souls II - Scholar of the First Sin</figcaption>
+            <p class="genre">Action</p>
+            <p class="rating"> Rating: 9/10</p>
+            <span class="price">$39.99</span>
+            <p>Dark Souls games have been known to be some of the hardest games ever made. I can attest to that, as I
+                have quit playing the game more than 10 times! It is an action RPG set in an unforgiving world filled
+                with tough, challenging enemies and bosses. You are the “Bearer of the Curse” and the player journeys
+                through the kingdom of Drangleic. You battle monsters, collect souls, and uncover the mysteries of the
+                land. The game is known not only for its punishing difficulty and intricate game design but also its
+                deep lore. Although it is really difficult, the reward after you finish the game and discover the lore
+                is worth it.</p>
+        </figure>
+
+        <figure data-price="39.99" data-genre="adventure" data-rating="rating">
+            <img src="images/enshrouded.jpg" alt="A warrior battling a boss from Enshrouded">
+            <figcaption>Enshrouded</figcaption>
+            <p class="genre">Open-World Adventure</p>
+            <p class="rating">Rating: 9/10</p>
+            <span class="price">$39.99</span>
+            <p>I'm a big fan of open-world adventure games because you get to fully explore the map and do your own
+                thing. Enshrouded is a multiplayer open-world game set in a dark, mysterious world. You can pick from
+                different classes like Archer, Magician, Tank, and more! You'll explore hidden secrets, take on tough
+                bosses, and survive some pretty harsh environments. The game is all about exploring, crafting, and
+                combat, and while it's definitely challenging, it’s also beautifully done!</p>
+        </figure>
+
+        <figure data-price="14.99" data-genre="multi" data-rating="rating">
+            <img src="images/stardew.jpg" alt="Stardew Valley Startup Screen">
+            <figcaption>Stardew Valley</figcaption>
+            <p class="genre">Open-World Multiplayer</p>
+            <p class="rating">Rating: 10/10</p>
+            <span class="price">$14.99</span>
+            <p>I’m a huge fan of farming simulator games and whenever people ask me what my go-to cozy game is, Stardew
+                Valley definitely is on the top of my list! It’s a solo or multiplayer farming simulation RPG game where
+                you take over your grandfather’s old farm and make it better! You get to grow your own crops, raise
+                animals, mine, fish, and forage. Plus, you can befriend the townsfolk and even get married! </p>
+        </figure>
+
+        <figure data-price="89.99" data-genre="action" data-rating="rating">
+            <img src="images/zelda.jpg" alt="Link overlooking Hyrule from The Legend of Zelda: Tears of the Kingdom">
+            <figcaption>The Legend of Zelda™: Tears of the Kingdom</figcaption>
+            <p class="genre">Action</p>
+            <p class="rating">Rating: 10/10</p>
+            <span class="price">$89.99</span>
+            <p>Tears of the Kingdom is an action-adventure game and the highly anticipated sequel to Breath of the Wild.
+                You’re back in the world of Hyrule, playing as Link as he embarks on a journey to rescue Princess Zelda.
+                New mechanics have been added, such as the ability to manipulate your environment, new abilities,
+                and fresh puzzles. Tears of the Kingdom offers an immersive adventure full of action, puzzles, and
+                exploration.</p>
+        </figure>
+
+        <figure data-price="19.99" data-genre="multi" data-rating="rating">
+            <img src="images/valheim.jpg" alt="Welcome Screen of Valheim">
+            <figcaption>Valheim</figcaption>
+            <p class="genre">Open-World Multiplayer</p>
+            <p class="rating">Rating: 9/10</p>
+            <span class="price">$19.99</span>
+            <p>Valheim is an open-world survival multiplayer game set in a procedurally generated word. It is
+                Norse-inspired, and the player takes on the role of a Viking warrior. You can also choose which class
+                you want, and I’ve played both as a Magician and a Warrior. Valheim is really fun as you also get to do
+                some farming, crafting, and gathering resources to defeat powerful enemies. It is extremely challenging,
+                and I like playing this game with friends!</p>
+        </figure>
+
+        <figure data-price="free" data-genre="shooter" data-rating="rating">
+            <img src="images/valorant.jpg" alt="Valorant Agents Home Screen">
+            <figcaption>Valorant</figcaption>
+            <p class="genre">First-Person Shooter</p>
+            <p class="rating">Rating: 9/10</p>
+            <span class="price">Free</span>
+            <p>I've always been a huge fan of shooter games, and when I first tried Valorant, the experience was
+                amazing. It combines precise gunplay with character skills and abilities, creating a unique gameplay
+                experience. In Valorant, players form teams of 5 playing against another team of 5 where strategy, team
+                composition, and communication are crucial for winning. The game offers an engaging shooting experience,
+                making it more enjoyable playing with friends! Valorant has become my go to shooting game! </p>
+        </figure>
+    </main>
+
+    <div class="video-container" id="video">
+        <h1>My Farm in Stardew Valley</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/cy_OSEVmMBQ?si=vZrPr6FIAJLL2qL0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" alt="Alyanna's Farm in StardewValley"
+            allowfullscreen></iframe>
+        <p>A quick visit of my farm in Stardew Valley!</p>
+        <p>"Video by Alyanna Barrera (Uploaded February 24, 2025) - YouTube"</p>
+    </div>
+</body>
+
+<footer>
+    <p>© Aya Barrera 2025 | Media Showcase</p>
+</footer>
+
+</html>
